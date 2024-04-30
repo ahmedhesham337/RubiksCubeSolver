@@ -20,10 +20,10 @@ internal class RubiksCubeSolver
         private static readonly int[,] CUBIES_MAP = {
                 {  0,  1,  2,  3,  0,  1,  2,  3 },   // U
                 {  4,  7,  6,  5,  4,  5,  6,  7 },   // D
-		        {  0,  9,  4,  8,  0,  3,  5,  4 },   // F
-		        {  2, 10,  6, 11,  2,  1,  7,  6 },   // B
-		        {  3, 11,  7,  9,  3,  2,  6,  5 },   // L
-		        {  1,  8,  5, 10,  1,  0,  4,  7 },   // R
+                {  0,  9,  4,  8,  0,  3,  5,  4 },   // F
+                {  2, 10,  6, 11,  2,  1,  7,  6 },   // B
+                {  3, 11,  7,  9,  3,  2,  6,  5 },   // L
+                {  1,  8,  5, 10,  1,  0,  4,  7 },   // R
             };
 
         public static int MoveToInt(string move)

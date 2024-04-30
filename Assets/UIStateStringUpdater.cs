@@ -23,6 +23,7 @@ public class UIStateStringUpdater : MonoBehaviour
 
     public void CopyStateToClipBoard()
     {
+        if (CubeState.autoRotating) return;
         GUIUtility.systemCopyBuffer = stateStringText.text;
     }
 }

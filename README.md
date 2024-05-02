@@ -3,3 +3,6 @@
 
 A Rubik's Cube game with an automatic solver.<br>
 Unity was used to build the game, and a variant of Thistlethwaite's algorithm with Bi-Directional Breadth First Search was used to build the solver.
+
+
+_Solver Code: [Assets/CubeSolver.cs](/Assets/CubeSolver.cs)_
